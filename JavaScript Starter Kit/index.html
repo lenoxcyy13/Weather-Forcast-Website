@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Open Weather API Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="weather-outer">
+      <div id="loader" class="loader-container"><div class="loader"></div></div>
+      <div id="searcher">
+        <button id="getLocationButton">Get My Location</button>
+        <input type="text" id="cityName" />
+        <button id="search-button">Search Weather</button>
+      </div>
+      <div id="weather-blocks">
+        <div class="container">
+          <div id="for-weather"></div>
+        </div>
+        <div class="container">
+          <div id="city-weather"></div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
